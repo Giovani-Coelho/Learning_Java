@@ -9,4 +9,11 @@ public class Aluno {
     this.nome = nome;
     this.nota = nota;
   }
+
+  @Override
+  // por padra o to string retona a a representacao string de um objeto
+  // com @override nos mudamos sua funcao nao chamamos mais a representacao, mas algo que queremos
+  public String toString() {
+    return nome + " " +  nota;
+  }
 }

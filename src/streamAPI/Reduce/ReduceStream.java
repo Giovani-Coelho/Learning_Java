@@ -22,6 +22,12 @@ public class ReduceStream {
             .filter(n -> n > 5)
             .reduce(soma)
             // se tiver resultado:
+
             .ifPresent(System.out::println);
+
+    int res = nums.stream()
+            .reduce(0, soma);
+
+    System.out.println(res);
   }
 }
