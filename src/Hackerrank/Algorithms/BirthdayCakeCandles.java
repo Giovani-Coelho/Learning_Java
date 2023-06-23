@@ -1,4 +1,4 @@
-package Hackerrank;
+package Hackerrank.Algorithms;
 
 import java.util.Arrays;
 import java.util.Comparator;

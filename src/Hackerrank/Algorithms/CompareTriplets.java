@@ -1,4 +1,4 @@
-package Hackerrank;
+package Hackerrank.Algorithms;
 
 public class CompareTriplets {
   public static void main(String[] args) {
